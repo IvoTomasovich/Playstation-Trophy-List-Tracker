@@ -1,0 +1,1 @@
+This project is a web application designed to help users put into one place lists for every Playstation trophy list they want. The user won't have to keep going back to that page over and over again for every game they want, because every list they've ever had will be stored in their account, easily viewable.
