@@ -1,0 +1,39 @@
+{
+  "name": "trophy-collection-site-v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "proxy.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node proxy.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "firebase": "^10.12.2",
+    "node-fetch": "^3.3.2"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "browser": true,
+      "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 12
+    },
+    "rules": {}
+  },
+  "devDependencies": {
+    "@rollup/plugin-replace": "^5.0.7",
+    "dotenv": "^16.4.5",
+    "dotenv-webpack": "^8.1.0"
+  }
+}

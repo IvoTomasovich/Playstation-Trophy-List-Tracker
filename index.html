@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trophy Collection</title>
+    <link rel="stylesheet" href="games.css">
+</head>
+<body>
+    <div class="top-bar">
+        <a href="login.html">Login or Sign Out</a>
+        <a href="index.html">Add Trophies To Account</a>
+        <a href="user_trophies.html">View Your Trophies</a>
+        <!-- <a href="#" id="signOutButton">Sign Out</a> Sign Out Button -->
+    </div>
+    <div class="container">
+        <h1>Trophy Collection</h1>
+        <p>Link to the PSN profiles page of the game you'd like to add:</p>
+        <input type="text" id="GameLink" name="GameLink" placeholder="Enter game link here">
+        <button type="button" id="SubmitButton">Submit</button>
+        <div id="gamename" style="display: none;"></div>
+        <div id="contain"></div> <!-- This is the container for the tables -->
+        <div id="question"></div>
+        <button id="button2" style="display: none;"></button>
+        <button id="button3" style="display: none;"></button>
+    </div>
+    <script type='module' src="app.js"></script>
+    <script type='module' src="yesorno.js"></script>
+</body>
+</html>
